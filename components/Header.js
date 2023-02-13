@@ -1,6 +1,6 @@
 import styles from '../styles/Header.module.css'
 import Link from 'next/link';
-import Button from '@mui/material/Button';
+import { Button } from '@mui/material';
 import { Box, Flex, Text  } from 'rebass';
 import { Spin as Hamburger } from 'hamburger-react';
 import { useState } from 'react';
