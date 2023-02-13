@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
 import Stack from '@mui/material/Stack';
-import { Button } from '@mui/material/Button'
+import  Button  from '@mui/material/Button'
 import Header from './Header';
 import { motion } from 'framer-motion';
 
@@ -48,21 +48,39 @@ function Home() {
             </p>
             
             <Stack spacing={2} direction="row" className={styles.buttons}>
-          <Button variant="contained" className={styles.button} 
+          <Button variant="contained"
           sx={{
+            position: 'unset',
+            width: 115,
+            height: 30,
+            fontFamily: '\'Poppins\', sans-serif',
+            fontSize: 12,
+            backgroundColor: '#000000',
+            textTransform: 'none',
             ':hover': {
               bgcolor: 'white',
               color: 'black',
             },
-          }}
+          }} 
+        
           >Hire me !</Button>
-          <Button variant="contained" className={styles.button2}
+          <Button variant="contained"
           sx={{
+            position: 'unset',
+            width: 115,
+            height: 30,
+            fontFamily: '\'Poppins\', sans-serif',
+            fontSize: 12,
+            color: '#000000',
+            backgroundColor: '#FFFFFF',
+            textTransform: 'none',
+            whiteSpace: 'nowrap',
             ':hover': {
               bgcolor: 'black',
               color: 'white',
             },
           }}
+          
           >See my projects</Button>
      </Stack>
   

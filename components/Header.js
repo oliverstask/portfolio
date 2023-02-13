@@ -1,6 +1,6 @@
 import styles from '../styles/Header.module.css'
 import Link from 'next/link';
-import { Button } from '@mui/material/Button';
+import  Button  from '@mui/material/Button';
 import { Box, Flex, Text  } from 'rebass';
 import { Spin as Hamburger } from 'hamburger-react';
 import { useState } from 'react';
@@ -26,13 +26,23 @@ function Header() {
     <Link href="/projects" className={styles.link}>Projects</Link>
     <Link href="/Contact" className={styles.link}>Contact</Link>
     <Button variant='contained' component="label" className={styles.button1}
-  sx={{
+    sx={{
+      width: '40%',
+      height: 'auto',
+      borderRadius: '8px',
+      fontFamily: '\'Poppins\', sans-serif',
+      fontSize: '12px',
+      backgroundColor: '#ffffff',
+      textTransform: 'none',
+      textDecoration: 'none',
+      marginTop: '-7px',
       ':hover': {
         bgcolor: '#7A6AC6',
         color: 'white',
         
       },
     }}
+
   >
   <a
       href="/files/Oliver-Resume.pdf"

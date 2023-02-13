@@ -39,17 +39,7 @@ top: 0.9375vw;
   color: #6e6e6e;
 }
 
-.button1 {
-  width: 40%;
-  height: auto;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  background-color: #ffffff;
-  text-transform: none;
-  text-decoration: none;
-  margin-top: -7px;
-}
+
   .container2 {
     display: flex;
     flex-direction: column;
