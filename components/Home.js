@@ -34,7 +34,7 @@ function Home() {
       <Grid spacing={2} className={styles.main}> 
 
        
-        <Grid xs={8} className={styles.elements}>
+        <Grid className={styles.elements}>
         <Header />
         <div className={styles.text} >
          
