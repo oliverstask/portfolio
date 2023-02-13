@@ -24,7 +24,7 @@ function Header() {
    <Box className={styles.linksContainer}>
     <Link href="/about" className={styles.link}>About Me</Link>
     <Link href="/projects" className={styles.link}>Projects</Link>
-    <Link href="/Contact" className={styles.link}>Contact</Link>
+    <Link href="https://linktr.ee/oliver.stask" className={styles.link}>Contact</Link>
     <Button variant='contained' component="label" className={styles.button1}
     sx={{
       width: '40%',
@@ -67,13 +67,13 @@ function Header() {
         <ul className={styles.menu}
         >
           <li > 
-            <a href="#" className={styles.links}>About Me</a>
+            <a href="/about" className={styles.links}>About Me</a>
           </li>
           <li >
-            <a href="#" className={styles.links}>Contact</a>
+            <a href="https://linktr.ee/oliver.stask" className={styles.links}>Contact</a>
           </li>
           <li >
-            <a href="#" className={styles.links}>Projects</a>
+            <a href="/projects" className={styles.links}>Projects</a>
           </li>
         </ul>
       )}

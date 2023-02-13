@@ -49,6 +49,7 @@ function Home() {
             
             <Stack spacing={2} direction="row" className={styles.buttons}>
           <Button variant="contained"
+          href="https://linktr.ee/oliver.stask"
           sx={{
             position: 'unset',
             width: 115,
@@ -65,6 +66,7 @@ function Home() {
         
           >Hire me !</Button>
           <Button variant="contained"
+          href="/projects"
           sx={{
             position: 'unset',
             width: 115,

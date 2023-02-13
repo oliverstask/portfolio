@@ -86,7 +86,7 @@ learning in a challenging environment.
               <Card sx={{ minHeight:350,minWidth:230,maxWidth: 500, backgroundColor:'white', marginTop:10}} >
       <CardMedia
         sx={{ height: 140 }}
-        image="/frontend.png"
+        image="/2.png"
         title="Profile picture"
         
       />
@@ -111,7 +111,7 @@ learning in a challenging environment.
               <Card sx={{ minHeight:350,minWidth:230,maxWidth: 500, backgroundColor:'white', marginTop:10}} >
       <CardMedia
         sx={{ height: 140 }}
-        image="/backend.png"
+        image="/1.png"
         title="Profile picture"
         
       />
@@ -136,7 +136,7 @@ learning in a challenging environment.
               <Card sx={{ minHeight:350,minWidth:230,maxWidth: 500, backgroundColor:'white', marginTop:10}} >
       <CardMedia
         sx={{ height: 140 }}
-        image="/brain.png"
+        image="/3.png"
         title="Profile picture"
         
       />
