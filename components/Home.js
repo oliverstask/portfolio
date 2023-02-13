@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
 import Stack from '@mui/material/Stack';
-import { Button } from '@mui/material';
+import { Button } from '@mui/material/Button'
 import Header from './Header';
 import { motion } from 'framer-motion';
 
