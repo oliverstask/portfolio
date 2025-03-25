@@ -61,7 +61,7 @@ function About() {
         Hey ! I'm Oliver
         </Typography>
         <Typography variant="body2" color={'white'} fontFamily='Poppins' marginLeft={4}>
-        <EventIcon/> 27 years old<br></br>
+        <EventIcon/> 29 years old<br></br>
         <LocationOnIcon/> Bruxelles, Belgium (but open for remote work)<br></br>
         If you want to talk about The Beach Boys, learn to surf or make an application, give me a call !
         </Typography>
