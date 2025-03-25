@@ -45,7 +45,7 @@ function Header() {
 
   >
   <a
-      href="/files/ProductOwner-CV-OliverSTASKIEWICZ.pdf"
+      href="/files/ProductOwner-CV-Oliver-STASKIEWICZ.pdf"
       alt="alt text"
       target="_blank"
       rel="noopener noreferrer"
